@@ -5,5 +5,4 @@ Dies ist das Repository meiner Präsentation über das Hackathon-Projekt im Modu
 *A framework for easily creating beautiful presentations using HTML.*
 
 Schau dir meine Präsentation an.
-
-[Zur Projektpräsentation](https://frankie1996.github.io/Hackathon-Presentation/)
+* [Zur Projektpräsentation](https://frankie1996.github.io/Hackathon-Presentation/)
