@@ -1,0 +1,28 @@
+/* Custom CSS */
+h1{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1.6em !important;
+    text-transform: none !important;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1.4em !important;
+    text-transform: none !important;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1.1em !important;
+    text-transform: none !important;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1em !important;
+    text-transform: none !important;
+}
+
+p{
+    font-family: 'Roboto', sans-serif !important;
+}

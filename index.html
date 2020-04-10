@@ -1,17 +1,47 @@
 <!doctype html>
 <html>
 	<head>
+
+		<!-- Metainformationen -->
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Projektpräsentation Hackathon</title>
+		<meta name="description" content="Projektpräsentation für den Online-Hackathon">
+		<meta name="author" content="Frank Zinsli">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Hackathon Projektpräsentation</title>
-
+		<!-- Integration CSS -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Integration Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet"> 
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="57x57" href="lib/icon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="lib/icon//apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="lib/icon//apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="lib/icon//apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="lib/icon//apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="lib/icon//apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="lib/icon//apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="lib/icon//apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="lib/icon//apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="lib/icon//android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="lib/icon//favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="lib/icon//favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="lib/icon//favicon-16x16.png">
+		<link rel="manifest" href="lib/icon//manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="lib/icon//ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -22,15 +52,119 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
+
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					Slide 1
+
+				<!--====== Einzelne Slides ======-->
+				<!-- Startseite -->
+				<section id="startseite" data-menu-title="Startseite" data-background="lib/images/background map.jpg">
+					<h1><strong>Projektpräsentation</strong><br><br>Einfacher Login zu einer Kalender App</h1>
+					<br>
+					<h3>Eine kurze Übersicht über das Projekt und dessen Aufbau</h3>
+					<br>
+					<p>
+						<small>Präsentation von <a href="http://frankzinsli.ch">Frank Zinsli</a> </small>
+					</p>
 				</section>
 
+				<!-- Ziel des Projekts -->
 				<section>
-					Slide 2
+					<section id="ziel-des-projekts" data-menu-title="Ziel des Projekts" data-background="lib/images/background map.jpg">
+						<h2>Ziel des Projekts</h2>
+						<br>
+						<ul>
+							<li class="fragment" style="list-style-type:none;">
+								<i class="fas fa-mobile-alt"></i>
+								<strong>PWA (Progressive Web App)</strong>
+							</li>
+							<ul>
+								<div class="fragment">
+									<hr>
+								<li style="list-style-type:none;"><p>Tag 1</p></li>
+								<li style="list-style-type:none;">
+									<i class="fa fa-registered" aria-hidden="true"></i>
+									Register-Page
+								</li>
+								</div>
+								<li class="fragment" style="list-style-type:none;">
+									<i class="fas fa-sign-in-alt"></i>
+									Login-Page
+								</li>
+								<li class="fragment" style="list-style-type:none;">
+									<i class="fas fa-sign-out-alt"></i>
+									Logout-Page
+								</li>
+									<ul>
+										<li class="fragment" style="list-style-type:none;">
+											<i class="fas fa-file-code"></i>
+											Sessionhandler
+										</li>
+									</ul>
+									<div class="fragment">
+									<li style="list-style-type:none;"><p>Tag 2</p></li>
+										<li style="list-style-type:none;">
+											<i class="far fa-calendar-alt"></i>
+											Kalender App
+										</li>
+									</div>
+							</ul>
+						</ul>
+					</section>
+
+					<section id="webtechnologien" data-menu-title="Webtechnologien" data-background="lib/images/background map.jpg">
+						<h2>Benötigte Webtechnologien</h2>
+						<table>
+							<tbody>
+								<tr>
+									<td>
+										<a href="https://github.com/" target="_blank">
+											<img height="65px" src="lib/image/icon-github.png" alt="Github icon" style="border: none;">
+										</a>
+									</td>
+									<td>
+										<a href="https://vuejs.org/" target="_blank">
+											<img height="65x" src="lib/image/icon-vuejs.png" alt="Vue JS icon" style="border: none;">
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="https://vuetifyjs.com/en/" target="_blank">
+											<img height="65x" src="lib/image/icon-vuetify.png" alt="Vuetify icon" style="border: none;">
+										</a>
+									</td>
+									<td>
+										<a href="https://cli.vuejs.org/core-plugins/pwa.html" target="_blank">
+											<img height="65px" src="lib/image/icon-pwa.png" alt="Vue PWA icon" style="border: none;">
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="https://firebase.google.com/" target="_blank">
+											<img height="65x" src="lib/image/icon-firebase.png" alt="Google Firebase icon" style="border: none;"">
+										</a>
+									</td>
+									<td>
+										<a href="https://pages.github.com/" target="_blank">
+											<img height="65x" src="lib/image/icon-github-pages.png" alt="Github Pages icon" style="border: none;"">
+										</a>
+									</td>
+								</tr>
+						</tbody>
+						</table>
+					</section>
+				</section>
+				<section id="vorarbeiten" data-menu-title="Vorarbeiten" data-background="lib/images/background map.jpg">
+					<h2>Vorarbeiten</h2>
+					<br>
+					<h3>Eine kurze Übersicht über das Projekt und dessen Aufbau</h3>
+					<br>
+					<p>
+						<small>Präsentation von <a href="http://frankzinsli.ch">Frank Zinsli</a> </small>
+					</p>
 				</section>
 			</div>
 		</div>
@@ -38,16 +172,15 @@
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				hash: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/menu/menu.js' },
+					{ src: 'plugin/d3js/d3js.js' },
 				]
 			});
 		</script>
