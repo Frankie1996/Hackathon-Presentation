@@ -6,5 +6,3 @@ Dies ist das Repository meiner Präsentation über das Hackathon-Projekt im Modu
 > - Reveal.js
 
 Schau dir [meine Präsentation](https://frankie1996.github.io/Hackathon-Presentation/) zum Hackathon an.
-
-Sie wird mittels Github Pages veröffentlicht.
